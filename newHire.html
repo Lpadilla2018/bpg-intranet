@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>New Hire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../Start/css/main.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../Start/js/main.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="container">
+    <section id="generalHeader">
+      <img src="images/BPGLogo.png" alt="BPG Logo" id="bpgLogo" />
+
+      <nav id="generalNav">
+        <ul id="generalNavList">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="teams.html">Teams</a>
+          </li>
+          <li>
+            <a href="resources.html">Resources</a>
+          </li>
+          <li>
+            <a class="active" href="newHire.html">New Hire</a>
+          </li>
+          <li>
+            <a href="photoGallery.html">Photo Gallery</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <form
+      id="form"
+      name="formHw4"
+      action=""
+      method="POST"
+      novalidate
+      onsubmit="return formValidate()"
+    >
+      <header>
+        <h1>New Hire Form</h1>
+      </header>
+      <label for="firstName">Please Enter Your First Name: (required)</label>
+      <br />
+      <input type="text" id="firstName" name="firstName" required />
+      <br />
+      <p id="resultsFirstName"></p>
+      <br />
+      <label for="lastName">Please Enter Your Last Name: (required)</label>
+      <br />
+      <input type="text" id="lastName" name="lastName" required />
+
+      <br />
+      <p id="resultsLastName"></p>
+      <br />
+
+      <label for="broswerChoice">Department</label>
+      <p>
+        <input type="radio" name="radioMessageType" value="Designs" checked />
+        <label for="safariRadio">Designs</label>
+        <br />
+        <input
+          type="radio"
+          name="radioMessageType"
+          value="Information Technologies"
+        />
+        <label for="chromeRadio">Information Technologies</label>
+        <br />
+        <input type="radio" name="radioMessageType" value="Admin" />
+        <label for="fireFoxRadio">Admin</label>
+        <br />
+        <input type="radio" name="radioMessageType" value="Construction" />
+        <label for="edgeRadio">Construction</label>
+        <br />
+        <input type="radio" name="radioMessageType" value="Technologies" />
+        <label for="otherRadio">Technologies</label>
+        <br />
+      </p>
+
+      <fieldset>
+        <legend>How would you like to be contacted in the future?</legend>
+        <input type="checkbox" name="cbContact1" value="E-mail" />
+        <label for="cbContact1">E-mail</label>
+        <br />
+        <input type="checkbox" name="cbContact2" value="Text" />
+        <label for="cbContact1">Text Message</label>
+        <br />
+        <input type="checkbox" name="cbContact3" value="Phone" />
+        <label for="cbContact3">Phone Call</label>
+        <br />
+      </fieldset>
+      <br />
+      <br />
+      <button id="submit" value="Submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,490 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Top and Nav Bar*/
+
+#homeNav {
+  position: relative;
+  top: 363px;
+}
+
+#generalNav {
+  position: relative;
+  top: 30px;
+}
+
+#bpgLogo {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+nav li {
+  display: inline;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 26px;
+  margin: 0 10px 0px 10px;
+}
+
+#generalNavList {
+  overflow: hidden;
+  padding: 15px;
+  margin-bottom: 5px;
+  height: 45px;
+  background-color: #333;
+}
+
+#homeNavList {
+  overflow: hidden;
+  padding: 15px;
+  margin-bottom: 5px;
+  height: 45px;
+  background-color: #333;
+  /* this is a good black color to use*/
+}
+
+li a {
+  text-decoration: none;
+}
+
+nav a:link,
+nav a:visited {
+  color: #a31c4b;
+}
+
+nav a:hover,
+nav a:active {
+  color: white;
+}
+
+.active {
+  background-color: rgb(235, 184, 36, 0.9);
+  height: 100px;
+  padding: 15px 5px 15px 5px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#map {
+  width: 1000px;
+  height: 400px;
+  background-color: yellow;
+  top: 50px;
+  position: relative;
+  margin: 100px;
+  padding: 50px;
+}
+
+#generalHeader {
+  width: 100%;
+  height: 180px;
+  background: rgb(235, 184, 36, 0.9);
+}
+
+#homeHeader {
+  width: 100%;
+  height: 500px;
+  background: rgb(235, 184, 36, 0.9);
+}
+
+#container {
+  background: #333;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+section header h1 {
+  position: absolute;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  width: auto;
+  height: auto;
+  font-size: 90px;
+  left: 33%;
+  top: 10%;
+  color: #333;
+}
+
+#bpgMotto {
+  font-family: 'Russo One', sans-serif;
+  font-size: 24px;
+  color: #a31c4b;
+  position: absolute;
+  top: 550px;
+  width: 90%;
+  left: 5%;
+}
+
+#bpgFront {
+  width: 100%;
+}
+
+.sectionBox1 {
+  background-color: rgb(163, 28, 75, 0.4);
+  position: relative;
+  color: rgb(253, 247, 239, 0.75);
+  height: 350px;
+  margin: 20px;
+}
+
+.sectionBox1 img {
+  height: 350px;
+  width: 450px;
+}
+
+.sectionBox1 h2 {
+  position: absolute;
+  font-family: 'Ubuntu', sans-serif;
+  left: 40%;
+  top: 4%;
+  width: 200px;
+  margin: 5px;
+  text-align: left;
+  font-size: 2em;
+}
+
+.sectionBox1 ul {
+  position: absolute;
+  top: 35%;
+  left: 47%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+}
+
+.sectionBox2 {
+  position: relative;
+  background-color: rgb(163, 28, 75, 0.4);
+  color: rgb(253, 247, 239, 0.75);
+  height: 350px;
+  margin: 20px;
+}
+
+.sectionBox2 img {
+  height: 350px;
+  width: 450px;
+  position: absolute;
+  right: 0px;
+}
+
+.sectionBox2 h2 {
+  position: absolute;
+  font-family: 'Ubuntu', sans-serif;
+  left: 3%;
+  top: 4%;
+  width: 200px;
+  margin: 5px;
+  text-align: left;
+  font-size: 2em;
+}
+
+.sectionBox2 ul {
+  position: absolute;
+  top: 34%;
+  left: 10%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+}
+
+.mapLong {
+  position: relative;
+  width: 650px;
+  height: 300px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.mapShort {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.boxBlocks {
+  position: relative;
+  margin-bottom: 10px;
+  border: 10;
+}
+
+.appBox {
+  top: 5%;
+  position: relative;
+  text-align: center;
+  top: 25px;
+}
+
+footer {
+  background-color: #cbc5c1;
+  opacity: 0.5;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#submit {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 44px;
+  font-family: 'Arimo', sans-serif;
+  background-color: rgb(235, 184, 36, 0.9);
+  color: white;
+  border: 0px;
+  border-radius: 2px;
+  font-size: 18px;
+  top: 93%;
+  left: 84%;
+}
+
+#moreButton {
+  position: relative;
+  left: 44%;
+  top: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  font-family: 'Arimo', sans-serif;
+  background-color: #3367d6;
+  color: white;
+  border: 0px;
+  border-radius: 2px;
+  font-size: 18px;
+}
+
+#moreButton:active {
+  background-color: rgb(51, 103, 214, 0.6);
+}
+
+#moreButton:hover {
+  opacity: 0.8;
+}
+
+#contactButton {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 44px;
+  font-family: 'Arimo', sans-serif;
+  background-color: rgb(163, 28, 75, 0.4);
+  color: white;
+  border: 0px;
+  border-radius: 2px;
+  font-size: 18px;
+  top: 60%;
+  left: 37%;
+}
+
+#contactButton:active {
+  background-color: rgb(235, 184, 36, 0.2);
+}
+
+#contactButton:hover {
+  opacity: 0.8;
+}
+
+#contactMain {
+  height: 400px;
+  text-align: center;
+  color: #cbc5c1;
+  width: 100%;
+}
+
+#contactMain h1 {
+  font-size: 5em;
+  position: relative;
+  top: 30%;
+  font-family: 'Russo One', sans-serif;
+}
+
+#contactMain p {
+  font-size: 1.5em;
+  position: relative;
+  top: 45%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#contactLeft {
+  text-align: center;
+  height: 300px;
+  width: 47%;
+  float: left;
+  position: relative;
+  border-radius: 5px;
+  border: rgb(163, 28, 75, 0.4) solid;
+  left: 15px;
+  color: rgb(235, 184, 36, 0.9);
+}
+
+#contactRight {
+  text-align: center;
+  height: 300px;
+  width: 47%;
+  float: right;
+  position: relative;
+  border: rgb(163, 28, 75, 0.4) solid;
+  border-radius: 5px;
+  right: 15px;
+  color: rgb(235, 184, 36, 0.9);
+}
+
+#contactLeft h2,
+#contactRight h2 {
+  position: relative;
+  top: 10%;
+  font-family: 'Russo One', sans-serif;
+  padding: 0px;
+}
+
+#contactLeft p,
+#contactRight p {
+  position: relative;
+  top: 18%;
+  font-family: 'Russo One', sans-serif;
+  padding: 0px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 2px;
+  width: 90%;
+  color: rgb(253, 247, 239, 0.5);
+}
+
+#contactLeft a:link,
+#contactLeft a:active,
+#contactRight a:link,
+#contactRight a:active {
+  color: rgb(253, 247, 239);
+  font-style: italic;
+  text-decoration: none;
+}
+
+#contactLeft a:hover,
+#contactLeft a:active,
+#contactRight a:hover,
+#contactRight a:active {
+  color: black;
+}
+
+#photoGallery {
+  text-align: center;
+  top: 0px;
+  position: relative;
+  margin: 30px;
+}
+
+#photoGallery img {
+  height: 300px;
+  width: 25%;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+#photoGallery li {
+  display: inline;
+  text-decoration: none;
+}
+
+#resourceBlock {
+  text-align: center;
+  top: 0px;
+  float: left;
+  margin: 10px;
+  width: 70%;
+  color: rgb(253, 247, 239, 0.75);
+  font-family: 'Russo One', sans-serif;
+  font-size: 1em;
+}
+
+#resourceBlock section {
+  display: inline-block;
+  height: 325px;
+  width: 400px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#resourceBlock img {
+  height: 250px;
+  width: 380px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+#resourceBlock p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+}
+
+aside {
+  float: right;
+  height: auto;
+  width: 24%;
+  text-align: justify;
+  line-height: 35px;
+  margin: 15px;
+  padding: 10px;
+  color: rgb(253, 247, 239, 0.75);
+  background-color: rgb(163, 28, 75, 0.4);
+  border-radius: 10px;
+}
+
+aside h2 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.9em;
+  text-decoration: underline;
+  text-align: center;
+}
+
+aside h3 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.4em;
+  padding: 20px;
+}
+
+aside p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1em;
+  margin: 5px;
+}
+
+#form {
+  text-align: justify;
+  margin: 25px;
+  background-color: rgb(163, 28, 75, 0.4);
+  padding: 45px;
+  color: rgb(253, 247, 239, 0.8);
+  position: relative;
+}
+
+#form header {
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.3em;
+  text-decoration: underline;
+  margin-bottom: 35px;
+}
+
+#form label,
+input,
+legend {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+  margin: 15px;
+}
